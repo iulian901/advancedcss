@@ -1,0 +1,19 @@
+div {
+    border: 5px solid red;
+    padding: 20px;
+}
+
+body > div {
+    background-color: purple;
+    color: white;
+}
+
+div > div {
+    background-color: yellow;
+    color: red;
+}
+
+div > div > div {
+    background-color: cyan;
+    
+}
